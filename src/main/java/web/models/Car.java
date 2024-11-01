@@ -4,8 +4,7 @@ public class Car {
     private String name;
     private String color;
     private int speed;
-    public Car() {
-    }
+
     public Car(String name, String color, int speed) {
         this.name = name;
         this.color = color;
