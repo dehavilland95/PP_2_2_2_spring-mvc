@@ -17,7 +17,7 @@ public class CarDaoImpl implements CarDao {
         cars.add(new Car("Toyota", "blue", 280));
     }
     @Override
-    public List<Car> getCars(int count) {
+    public List<Car> getByCount(int count) {
         if(count < 0) return cars;
         return cars.subList(0, Math.min(count, 5));
     }
